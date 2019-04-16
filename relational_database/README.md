@@ -39,7 +39,7 @@
 
 ### Requests
 
-- DICTINCT. Selection of unique values
+- DISTINCT. Selection of unique values
 
 - ORDER BY. Sorting
 
