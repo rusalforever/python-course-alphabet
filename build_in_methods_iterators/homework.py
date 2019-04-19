@@ -15,7 +15,9 @@ def task_1_fix_names_start_letter(data: DT) -> DT:
         fix_names_start_letters([{'name': 'Alex', 'age': 26}, {'name': 'denys', 'age': 89}])
         >>> [{'name': 'Alex', 'age': 26}, {'name': 'Denys', 'age': 89}]
     """
-    for d in data: d.update(name=d['name'].title())
+    for d in data:
+        if d.get('name', None):
+            d.update({'name': d['name'].title()})
     return data
 
 
@@ -27,7 +29,9 @@ def task_2_remove_dict_fields(data: DT, redundant_keys: List[str]) -> DT:
        remove_dict_field([{'name': 'Alex', 'age': 26}, {'name': 'denys', 'age': 89}], 'age')
         >>> [{'name': 'Alex'}, {'name': 'denys'}]
     """
-    for data_dict in data: data_dict.pop(redundant_keys, None)
+    for data_dict in data:
+        for k in redundant_keys:
+            data_dict.pop(k, None)
     return data
 
 
@@ -66,10 +70,16 @@ def task_6_min_value_list_of_dicts(data: DT, key: str) -> ST:
     Returns:
 
     """
-    if isinstance(key, str):
-        return str(min(map(lambda x: x.get(key), data)))
-    else:
-        return None
+    # if isinstance(key, str):
+    #     return str(min(map(lambda x: x.get(key), data)))
+    # else:
+    #     return None
+
+    data = list(filter(lambda x: x.get(key) is not None, data))
+    minvalue = min(map(lambda x: x.get(key), data))
+    for d in data:
+        if d.get(key) == minvalue:
+            return d
 
 
 def task_7_max_value_list_of_lists(data: List[List[int]]) -> int:
