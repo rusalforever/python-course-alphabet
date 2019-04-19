@@ -10,11 +10,11 @@ DT = List[ST]
 def task_1_fix_names_start_letter(data: DT) -> DT:
     """
     Make all `names` field in list of students to start from upper letter
-
     Examples:
         fix_names_start_letters([{'name': 'Alex', 'age': 26}, {'name': 'denys', 'age': 89}])
         >>> [{'name': 'Alex', 'age': 26}, {'name': 'Denys', 'age': 89}]
     """
+
     for d in data:
         if d.get('name', None):
             d.update({'name': d['name'].title()})
@@ -24,11 +24,13 @@ def task_1_fix_names_start_letter(data: DT) -> DT:
 def task_2_remove_dict_fields(data: DT, redundant_keys: List[str]) -> DT:
     """given_data
     Remove from dictionaries given key value
-
     Examples:
        remove_dict_field([{'name': 'Alex', 'age': 26}, {'name': 'denys', 'age': 89}], 'age')
         >>> [{'name': 'Alex'}, {'name': 'denys'}]
     """
+
+    return list(map(lambda     {k,v for (k,v) in in d.items()}))
+
     for data_dict in data:
         for k in redundant_keys:
             data_dict.pop(k, None)
@@ -68,7 +70,6 @@ def task_6_min_value_list_of_dicts(data: DT, key: str) -> ST:
     """
     Find minimum value by given key
     Returns:
-
     """
     # if isinstance(key, str):
     #     return str(min(map(lambda x: x.get(key), data)))
@@ -101,13 +102,11 @@ def task_9_sum_characters_positions(text: str) -> int:
     Please read first about ascii table.
     https://python-reference.readthedocs.io/en/latest/docs/str/ASCII.html
     You need to calculate sum of decimal value of each symbol in text
-
     Examples:
         task_9_sum_characters_positions("A")
         >>> 65
         task_9_sum_characters_positions("hello")
         >>> 532
-
     """
     return sum(map(lambda x: ord(x), text))
 
@@ -144,6 +143,5 @@ def task_10_generator_of_simple_numbers() -> Generator[int, None, None]:
 def task_11_create_list_of_random_characters() -> List[str]:
     """
     Create list of 20 elements where each element is random letter from latin alphabet
-
     """
     return random.sample(string.ascii_lowercase, 20)
