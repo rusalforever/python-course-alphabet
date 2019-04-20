@@ -136,5 +136,3 @@ def task_11_create_list_of_random_characters() -> List[str]:
     """
     return random.sample(string.ascii_lowercase, 20)
 
-
-print(task_2_remove_dict_fields([{'name': 'Alex', 'age': 26}, {'name': 'denys', 'age': 89}], 'age'))
