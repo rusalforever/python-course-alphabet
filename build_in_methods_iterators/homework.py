@@ -30,10 +30,6 @@ def task_2_remove_dict_fields(data: DT, redundant_keys: List[str]) -> DT:
     """
 
     return [{k: v for k, v in d.items() if k not in redundant_keys} for d in data]
-    # for data_dict in data:
-    #     for k in redundant_keys:
-    #         data_dict.pop(k, None)
-    # return data
 
 
 def task_3_find_item_via_value(data: DT, value) -> DT:
@@ -70,10 +66,6 @@ def task_6_min_value_list_of_dicts(data: DT, key: str) -> ST:
     Find minimum value by given key
     Returns:
     """
-    # if isinstance(key, str):
-    #     return str(min(map(lambda x: x.get(key), data)))
-    # else:
-    #     return None
 
     data = list(filter(lambda x: key in x, data))
     if data:
@@ -143,5 +135,6 @@ def task_11_create_list_of_random_characters() -> List[str]:
     Create list of 20 elements where each element is random letter from latin alphabet
     """
     return random.sample(string.ascii_lowercase, 20)
+
 
 print(task_2_remove_dict_fields([{'name': 'Alex', 'age': 26}, {'name': 'denys', 'age': 89}], 'age'))
