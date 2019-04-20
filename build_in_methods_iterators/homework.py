@@ -29,12 +29,11 @@ def task_2_remove_dict_fields(data: DT, redundant_keys: List[str]) -> DT:
         >>> [{'name': 'Alex'}, {'name': 'denys'}]
     """
 
-    return list(map(lambda     {k,v for (k,v) in in d.items()}))
-
-    for data_dict in data:
-        for k in redundant_keys:
-            data_dict.pop(k, None)
-    return data
+    return [{k: v for k, v in d.items() if k not in redundant_keys} for d in data]
+    # for data_dict in data:
+    #     for k in redundant_keys:
+    #         data_dict.pop(k, None)
+    # return data
 
 
 def task_3_find_item_via_value(data: DT, value) -> DT:
@@ -76,11 +75,10 @@ def task_6_min_value_list_of_dicts(data: DT, key: str) -> ST:
     # else:
     #     return None
 
-    data = list(filter(lambda x: x.get(key) is not None, data))
-    minvalue = min(map(lambda x: x.get(key), data))
-    for d in data:
-        if d.get(key) == minvalue:
-            return d
+    data = list(filter(lambda x: key in x, data))
+    if data:
+        minvalue = min(map(lambda x: x.get(key), data))
+        return list(filter(lambda x: x.get(key) == minvalue, data))[0]
 
 
 def task_7_max_value_list_of_lists(data: List[List[int]]) -> int:
@@ -145,3 +143,5 @@ def task_11_create_list_of_random_characters() -> List[str]:
     Create list of 20 elements where each element is random letter from latin alphabet
     """
     return random.sample(string.ascii_lowercase, 20)
+
+print(task_2_remove_dict_fields([{'name': 'Alex', 'age': 26}, {'name': 'denys', 'age': 89}], 'age'))
