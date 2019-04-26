@@ -4,5 +4,13 @@
 .idea
 __pycache__
 
+<<<<<<< HEAD
 venv
 env
+||||||| merged common ancestors
+env
+=======
+env
+venv
+virtualenv
+>>>>>>> f314379a4cbb833d90ac2e3512de1f81cdf48b43
