@@ -3,7 +3,11 @@
     "productid": 1,
     "productname": "Chais",
     "unit": "10 boxes x 20 bags",
+<<<<<<< HEAD
     "price": "£18.00",
+=======
+    "price": "$18.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "UK",
     "city": "Londona",
     "suppliername": "Exotic Liquid"
@@ -12,7 +16,11 @@
     "productid": 2,
     "productname": "Chang",
     "unit": "24 - 12 oz bottles",
+<<<<<<< HEAD
     "price": "£19.00",
+=======
+    "price": "$19.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "UK",
     "city": "Londona",
     "suppliername": "Exotic Liquid"
@@ -21,7 +29,11 @@
     "productid": 3,
     "productname": "Aniseed Syrup",
     "unit": "12 - 550 ml bottles",
+<<<<<<< HEAD
     "price": "£10.00",
+=======
+    "price": "$10.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "UK",
     "city": "Londona",
     "suppliername": "Exotic Liquid"
@@ -30,7 +42,11 @@
     "productid": 4,
     "productname": "Chef Anton's Cajun Seasoning",
     "unit": "48 - 6 oz jars",
+<<<<<<< HEAD
     "price": "£22.00",
+=======
+    "price": "$22.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "New Orleans",
     "suppliername": "New Orleans Cajun Delights"
@@ -39,7 +55,11 @@
     "productid": 5,
     "productname": "Chef Anton's Gumbo Mix",
     "unit": "36 boxes",
+<<<<<<< HEAD
     "price": "£21.35",
+=======
+    "price": "$21.35",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "New Orleans",
     "suppliername": "New Orleans Cajun Delights"
@@ -48,7 +68,11 @@
     "productid": 6,
     "productname": "Grandma's Boysenberry Spread",
     "unit": "12 - 8 oz jars",
+<<<<<<< HEAD
     "price": "£25.00",
+=======
+    "price": "$25.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "Ann Arbor",
     "suppliername": "Grandma Kelly's Homestead"
@@ -57,7 +81,11 @@
     "productid": 7,
     "productname": "Uncle Bob's Organic Dried Pears",
     "unit": "12 - 1 lb pkgs.",
+<<<<<<< HEAD
     "price": "£30.00",
+=======
+    "price": "$30.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "Ann Arbor",
     "suppliername": "Grandma Kelly's Homestead"
@@ -66,7 +94,11 @@
     "productid": 8,
     "productname": "Northwoods Cranberry Sauce",
     "unit": "12 - 12 oz jars",
+<<<<<<< HEAD
     "price": "£40.00",
+=======
+    "price": "$40.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "Ann Arbor",
     "suppliername": "Grandma Kelly's Homestead"
@@ -75,7 +107,11 @@
     "productid": 9,
     "productname": "Mishi Kobe Niku",
     "unit": "18 - 500 g pkgs.",
+<<<<<<< HEAD
     "price": "£97.00",
+=======
+    "price": "$97.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Japan",
     "city": "Tokyo",
     "suppliername": "Tokyo Traders"
@@ -84,7 +120,11 @@
     "productid": 10,
     "productname": "Ikura",
     "unit": "12 - 200 ml jars",
+<<<<<<< HEAD
     "price": "£31.00",
+=======
+    "price": "$31.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Japan",
     "city": "Tokyo",
     "suppliername": "Tokyo Traders"
@@ -93,7 +133,11 @@
     "productid": 11,
     "productname": "Queso Cabrales",
     "unit": "1 kg pkg.",
+<<<<<<< HEAD
     "price": "£21.00",
+=======
+    "price": "$21.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Spain",
     "city": "Oviedo",
     "suppliername": "Cooperativa de Quesos 'Las Cabras'"
@@ -102,7 +146,11 @@
     "productid": 12,
     "productname": "Queso Manchego La Pastora",
     "unit": "10 - 500 g pkgs.",
+<<<<<<< HEAD
     "price": "£38.00",
+=======
+    "price": "$38.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Spain",
     "city": "Oviedo",
     "suppliername": "Cooperativa de Quesos 'Las Cabras'"
@@ -111,7 +159,11 @@
     "productid": 13,
     "productname": "Konbu",
     "unit": "2 kg box",
+<<<<<<< HEAD
     "price": "£6.00",
+=======
+    "price": "$6.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Japan",
     "city": "Osaka",
     "suppliername": "Mayumi's"
@@ -120,7 +172,11 @@
     "productid": 14,
     "productname": "Tofu",
     "unit": "40 - 100 g pkgs.",
+<<<<<<< HEAD
     "price": "£23.25",
+=======
+    "price": "$23.25",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Japan",
     "city": "Osaka",
     "suppliername": "Mayumi's"
@@ -129,7 +185,11 @@
     "productid": 15,
     "productname": "Genen Shouyu",
     "unit": "24 - 250 ml bottles",
+<<<<<<< HEAD
     "price": "£15.50",
+=======
+    "price": "$15.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Japan",
     "city": "Osaka",
     "suppliername": "Mayumi's"
@@ -138,7 +198,11 @@
     "productid": 16,
     "productname": "Pavlova",
     "unit": "32 - 500 g boxes",
+<<<<<<< HEAD
     "price": "£17.45",
+=======
+    "price": "$17.45",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Australia",
     "city": "Melbourne",
     "suppliername": "Pavlova, Ltd."
@@ -147,7 +211,11 @@
     "productid": 17,
     "productname": "Alice Mutton",
     "unit": "20 - 1 kg tins",
+<<<<<<< HEAD
     "price": "£39.00",
+=======
+    "price": "$39.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Australia",
     "city": "Melbourne",
     "suppliername": "Pavlova, Ltd."
@@ -156,7 +224,11 @@
     "productid": 18,
     "productname": "Carnarvon Tigers",
     "unit": "16 kg pkg.",
+<<<<<<< HEAD
     "price": "£62.50",
+=======
+    "price": "$62.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Australia",
     "city": "Melbourne",
     "suppliername": "Pavlova, Ltd."
@@ -165,7 +237,11 @@
     "productid": 19,
     "productname": "Teatime Chocolate Biscuits",
     "unit": "10 boxes x 12 pieces",
+<<<<<<< HEAD
     "price": "£9.20",
+=======
+    "price": "$9.20",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "UK",
     "city": "Manchester",
     "suppliername": "Specialty Biscuits, Ltd."
@@ -174,7 +250,11 @@
     "productid": 20,
     "productname": "Sir Rodney's Marmalade",
     "unit": "30 gift boxes",
+<<<<<<< HEAD
     "price": "£81.00",
+=======
+    "price": "$81.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "UK",
     "city": "Manchester",
     "suppliername": "Specialty Biscuits, Ltd."
@@ -183,7 +263,11 @@
     "productid": 21,
     "productname": "Sir Rodney's Scones",
     "unit": "24 pkgs. x 4 pieces",
+<<<<<<< HEAD
     "price": "£10.00",
+=======
+    "price": "$10.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "UK",
     "city": "Manchester",
     "suppliername": "Specialty Biscuits, Ltd."
@@ -192,7 +276,11 @@
     "productid": 22,
     "productname": "Gustaf's Knäckebröd",
     "unit": "24 - 500 g pkgs.",
+<<<<<<< HEAD
     "price": "£21.00",
+=======
+    "price": "$21.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Sweden ",
     "city": "Göteborg",
     "suppliername": "PB Knäckebröd AB"
@@ -201,7 +289,11 @@
     "productid": 23,
     "productname": "Tunnbröd",
     "unit": "12 - 250 g pkgs.",
+<<<<<<< HEAD
     "price": "£9.00",
+=======
+    "price": "$9.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Sweden ",
     "city": "Göteborg",
     "suppliername": "PB Knäckebröd AB"
@@ -210,7 +302,11 @@
     "productid": 24,
     "productname": "Guaraná Fantástica",
     "unit": "12 - 355 ml cans",
+<<<<<<< HEAD
     "price": "£4.50",
+=======
+    "price": "$4.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Brazil",
     "city": "São Paulo",
     "suppliername": "Refrescos Americanas LTDA"
@@ -219,7 +315,11 @@
     "productid": 25,
     "productname": "NuNuCa Nuß-Nougat-Creme",
     "unit": "20 - 450 g glasses",
+<<<<<<< HEAD
     "price": "£14.00",
+=======
+    "price": "$14.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Germany",
     "city": "Berlin",
     "suppliername": "Heli Süßwaren GmbH &amp;Co. KG"
@@ -228,7 +328,11 @@
     "productid": 26,
     "productname": "Gumbär Gummibärchen",
     "unit": "100 - 250 g bags",
+<<<<<<< HEAD
     "price": "£31.23",
+=======
+    "price": "$31.23",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Germany",
     "city": "Berlin",
     "suppliername": "Heli Süßwaren GmbH &amp;Co. KG"
@@ -237,7 +341,11 @@
     "productid": 27,
     "productname": "Schoggi Schokolade",
     "unit": "100 - 100 g pieces",
+<<<<<<< HEAD
     "price": "£43.90",
+=======
+    "price": "$43.90",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Germany",
     "city": "Berlin",
     "suppliername": "Heli Süßwaren GmbH &amp;Co. KG"
@@ -246,7 +354,11 @@
     "productid": 28,
     "productname": "Rössle Sauerkraut",
     "unit": "25 - 825 g cans",
+<<<<<<< HEAD
     "price": "£45.60",
+=======
+    "price": "$45.60",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Germany",
     "city": "Frankfurt",
     "suppliername": "Plutzer Lebensmittelgroßmärkte AG"
@@ -255,7 +367,11 @@
     "productid": 29,
     "productname": "Thüringer Rostbratwurst",
     "unit": "50 bags x 30 sausgs.",
+<<<<<<< HEAD
     "price": "£123.79",
+=======
+    "price": "$123.79",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Germany",
     "city": "Frankfurt",
     "suppliername": "Plutzer Lebensmittelgroßmärkte AG"
@@ -264,7 +380,11 @@
     "productid": 30,
     "productname": "Nord-Ost Matjeshering",
     "unit": "10 - 200 g glasses",
+<<<<<<< HEAD
     "price": "£25.89",
+=======
+    "price": "$25.89",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Germany",
     "city": "Cuxhaven",
     "suppliername": "Nord-Ost-Fisch Handelsgesellschaft mbH"
@@ -273,7 +393,11 @@
     "productid": 31,
     "productname": "Gorgonzola Telino",
     "unit": "12 - 100 g pkgs",
+<<<<<<< HEAD
     "price": "£12.50",
+=======
+    "price": "$12.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Italy",
     "city": "Ravenna",
     "suppliername": "Formaggi Fortini s.r.l."
@@ -282,7 +406,11 @@
     "productid": 32,
     "productname": "Mascarpone Fabioli",
     "unit": "24 - 200 g pkgs.",
+<<<<<<< HEAD
     "price": "£32.00",
+=======
+    "price": "$32.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Italy",
     "city": "Ravenna",
     "suppliername": "Formaggi Fortini s.r.l."
@@ -291,7 +419,11 @@
     "productid": 33,
     "productname": "Geitost",
     "unit": "500 g",
+<<<<<<< HEAD
     "price": "£2.50",
+=======
+    "price": "$2.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Norway",
     "city": "Sandvika",
     "suppliername": "Norske Meierier"
@@ -300,7 +432,11 @@
     "productid": 34,
     "productname": "Sasquatch Ale",
     "unit": "24 - 12 oz bottles",
+<<<<<<< HEAD
     "price": "£14.00",
+=======
+    "price": "$14.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "Bend",
     "suppliername": "Bigfoot Breweries"
@@ -309,7 +445,11 @@
     "productid": 35,
     "productname": "Steeleye Stout",
     "unit": "24 - 12 oz bottles",
+<<<<<<< HEAD
     "price": "£18.00",
+=======
+    "price": "$18.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "Bend",
     "suppliername": "Bigfoot Breweries"
@@ -318,7 +458,11 @@
     "productid": 36,
     "productname": "Inlagd Sill",
     "unit": "24 - 250 g jars",
+<<<<<<< HEAD
     "price": "£19.00",
+=======
+    "price": "$19.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Sweden",
     "city": "Stockholm",
     "suppliername": "Svensk Sjöföda AB"
@@ -327,7 +471,11 @@
     "productid": 37,
     "productname": "Gravad lax",
     "unit": "12 - 500 g pkgs.",
+<<<<<<< HEAD
     "price": "£26.00",
+=======
+    "price": "$26.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Sweden",
     "city": "Stockholm",
     "suppliername": "Svensk Sjöföda AB"
@@ -336,7 +484,11 @@
     "productid": 38,
     "productname": "Côte de Blaye",
     "unit": "12 - 75 cl bottles",
+<<<<<<< HEAD
     "price": "£263.50",
+=======
+    "price": "$263.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "France",
     "city": "Paris",
     "suppliername": "Aux joyeux ecclésiastiques"
@@ -345,7 +497,11 @@
     "productid": 39,
     "productname": "Chartreuse verte",
     "unit": "750 cc per bottle",
+<<<<<<< HEAD
     "price": "£18.00",
+=======
+    "price": "$18.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "France",
     "city": "Paris",
     "suppliername": "Aux joyeux ecclésiastiques"
@@ -354,7 +510,11 @@
     "productid": 40,
     "productname": "Boston Crab Meat",
     "unit": "24 - 4 oz tins",
+<<<<<<< HEAD
     "price": "£18.40",
+=======
+    "price": "$18.40",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "Boston",
     "suppliername": "New England Seafood Cannery"
@@ -363,7 +523,11 @@
     "productid": 41,
     "productname": "Jack's New England Clam Chowder",
     "unit": "12 - 12 oz cans",
+<<<<<<< HEAD
     "price": "£9.65",
+=======
+    "price": "$9.65",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "Boston",
     "suppliername": "New England Seafood Cannery"
@@ -372,7 +536,11 @@
     "productid": 42,
     "productname": "Singaporean Hokkien Fried Mee",
     "unit": "32 - 1 kg pkgs.",
+<<<<<<< HEAD
     "price": "£14.00",
+=======
+    "price": "$14.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Singapore",
     "city": "Singapore",
     "suppliername": "Leka Trading"
@@ -381,7 +549,11 @@
     "productid": 43,
     "productname": "Ipoh Coffee",
     "unit": "16 - 500 g tins",
+<<<<<<< HEAD
     "price": "£46.00",
+=======
+    "price": "$46.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Singapore",
     "city": "Singapore",
     "suppliername": "Leka Trading"
@@ -390,7 +562,11 @@
     "productid": 44,
     "productname": "Gula Malacca",
     "unit": "20 - 2 kg bags",
+<<<<<<< HEAD
     "price": "£19.45",
+=======
+    "price": "$19.45",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Singapore",
     "city": "Singapore",
     "suppliername": "Leka Trading"
@@ -399,7 +575,11 @@
     "productid": 45,
     "productname": "Røgede sild",
     "unit": "1k pkg.",
+<<<<<<< HEAD
     "price": "£9.50",
+=======
+    "price": "$9.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Denmark",
     "city": "Lyngby",
     "suppliername": "Lyngbysild"
@@ -408,7 +588,11 @@
     "productid": 46,
     "productname": "Spegesild",
     "unit": "4 - 450 g glasses",
+<<<<<<< HEAD
     "price": "£12.00",
+=======
+    "price": "$12.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Denmark",
     "city": "Lyngby",
     "suppliername": "Lyngbysild"
@@ -417,7 +601,11 @@
     "productid": 47,
     "productname": "Zaanse koeken",
     "unit": "10 - 4 oz boxes",
+<<<<<<< HEAD
     "price": "£9.50",
+=======
+    "price": "$9.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Netherlands",
     "city": "Zaandam",
     "suppliername": "Zaanse Snoepfabriek"
@@ -426,7 +614,11 @@
     "productid": 48,
     "productname": "Chocolade",
     "unit": "10 pkgs.",
+<<<<<<< HEAD
     "price": "£12.75",
+=======
+    "price": "$12.75",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Netherlands",
     "city": "Zaandam",
     "suppliername": "Zaanse Snoepfabriek"
@@ -435,7 +627,11 @@
     "productid": 49,
     "productname": "Maxilaku",
     "unit": "24 - 50 g pkgs.",
+<<<<<<< HEAD
     "price": "£20.00",
+=======
+    "price": "$20.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Finland",
     "city": "Lappeenranta",
     "suppliername": "Karkki Oy"
@@ -444,7 +640,11 @@
     "productid": 50,
     "productname": "Valkoinen suklaa",
     "unit": "12 - 100 g bars",
+<<<<<<< HEAD
     "price": "£16.25",
+=======
+    "price": "$16.25",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Finland",
     "city": "Lappeenranta",
     "suppliername": "Karkki Oy"
@@ -453,7 +653,11 @@
     "productid": 51,
     "productname": "Manjimup Dried Apples",
     "unit": "50 - 300 g pkgs.",
+<<<<<<< HEAD
     "price": "£53.00",
+=======
+    "price": "$53.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Australia",
     "city": "Sydney",
     "suppliername": "G'day, Mate"
@@ -462,7 +666,11 @@
     "productid": 52,
     "productname": "Filo Mix",
     "unit": "16 - 2 kg boxes",
+<<<<<<< HEAD
     "price": "£7.00",
+=======
+    "price": "$7.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Australia",
     "city": "Sydney",
     "suppliername": "G'day, Mate"
@@ -471,7 +679,11 @@
     "productid": 53,
     "productname": "Perth Pasties",
     "unit": "48 pieces",
+<<<<<<< HEAD
     "price": "£32.80",
+=======
+    "price": "$32.80",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Australia",
     "city": "Sydney",
     "suppliername": "G'day, Mate"
@@ -480,7 +692,11 @@
     "productid": 54,
     "productname": "Tourtière",
     "unit": "16 pies",
+<<<<<<< HEAD
     "price": "£7.45",
+=======
+    "price": "$7.45",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Canada",
     "city": "Montréal",
     "suppliername": "Ma Maison"
@@ -489,7 +705,11 @@
     "productid": 55,
     "productname": "Pâté chinois",
     "unit": "24 boxes x 2 pies",
+<<<<<<< HEAD
     "price": "£24.00",
+=======
+    "price": "$24.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Canada",
     "city": "Montréal",
     "suppliername": "Ma Maison"
@@ -498,7 +718,11 @@
     "productid": 56,
     "productname": "Gnocchi di nonna Alice",
     "unit": "24 - 250 g pkgs.",
+<<<<<<< HEAD
     "price": "£38.00",
+=======
+    "price": "$38.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Italy",
     "city": "Salerno",
     "suppliername": "Pasta Buttini s.r.l."
@@ -507,7 +731,11 @@
     "productid": 57,
     "productname": "Ravioli Angelo",
     "unit": "24 - 250 g pkgs.",
+<<<<<<< HEAD
     "price": "£19.50",
+=======
+    "price": "$19.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Italy",
     "city": "Salerno",
     "suppliername": "Pasta Buttini s.r.l."
@@ -516,7 +744,11 @@
     "productid": 58,
     "productname": "Escargots de Bourgogne",
     "unit": "24 pieces",
+<<<<<<< HEAD
     "price": "£13.25",
+=======
+    "price": "$13.25",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "France",
     "city": "Montceau",
     "suppliername": "Escargots Nouveaux"
@@ -525,7 +757,11 @@
     "productid": 59,
     "productname": "Raclette Courdavault",
     "unit": "5 kg pkg.",
+<<<<<<< HEAD
     "price": "£55.00",
+=======
+    "price": "$55.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "France",
     "city": "Annecy",
     "suppliername": "Gai pâturage"
@@ -534,7 +770,11 @@
     "productid": 60,
     "productname": "Camembert Pierrot",
     "unit": "15 - 300 g rounds",
+<<<<<<< HEAD
     "price": "£34.00",
+=======
+    "price": "$34.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "France",
     "city": "Annecy",
     "suppliername": "Gai pâturage"
@@ -543,7 +783,11 @@
     "productid": 61,
     "productname": "Sirop d'érable",
     "unit": "24 - 500 ml bottles",
+<<<<<<< HEAD
     "price": "£28.50",
+=======
+    "price": "$28.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Canada",
     "city": "Ste-Hyacinthe",
     "suppliername": "Forêts d'érables"
@@ -552,7 +796,11 @@
     "productid": 62,
     "productname": "Tarte au sucre",
     "unit": "48 pies",
+<<<<<<< HEAD
     "price": "£49.30",
+=======
+    "price": "$49.30",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Canada",
     "city": "Ste-Hyacinthe",
     "suppliername": "Forêts d'érables"
@@ -561,7 +809,11 @@
     "productid": 63,
     "productname": "Vegie-spread",
     "unit": "15 - 625 g jars",
+<<<<<<< HEAD
     "price": "£43.90",
+=======
+    "price": "$43.90",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Australia",
     "city": "Melbourne",
     "suppliername": "Pavlova, Ltd."
@@ -570,7 +822,11 @@
     "productid": 64,
     "productname": "Wimmers gute Semmelknödel",
     "unit": "20 bags x 4 pieces",
+<<<<<<< HEAD
     "price": "£33.25",
+=======
+    "price": "$33.25",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Germany",
     "city": "Frankfurt",
     "suppliername": "Plutzer Lebensmittelgroßmärkte AG"
@@ -579,7 +835,11 @@
     "productid": 65,
     "productname": "Louisiana Fiery Hot Pepper Sauce",
     "unit": "32 - 8 oz bottles",
+<<<<<<< HEAD
     "price": "£21.05",
+=======
+    "price": "$21.05",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "New Orleans",
     "suppliername": "New Orleans Cajun Delights"
@@ -588,7 +848,11 @@
     "productid": 66,
     "productname": "Louisiana Hot Spiced Okra",
     "unit": "24 - 8 oz jars",
+<<<<<<< HEAD
     "price": "£17.00",
+=======
+    "price": "$17.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "New Orleans",
     "suppliername": "New Orleans Cajun Delights"
@@ -597,7 +861,11 @@
     "productid": 67,
     "productname": "Laughing Lumberjack Lager",
     "unit": "24 - 12 oz bottles",
+<<<<<<< HEAD
     "price": "£14.00",
+=======
+    "price": "$14.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "USA",
     "city": "Bend",
     "suppliername": "Bigfoot Breweries"
@@ -606,7 +874,11 @@
     "productid": 68,
     "productname": "Scottish Longbreads",
     "unit": "10 boxes x 8 pieces",
+<<<<<<< HEAD
     "price": "£12.50",
+=======
+    "price": "$12.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "UK",
     "city": "Manchester",
     "suppliername": "Specialty Biscuits, Ltd."
@@ -615,7 +887,11 @@
     "productid": 69,
     "productname": "Gudbrandsdalsost",
     "unit": "10 kg pkg.",
+<<<<<<< HEAD
     "price": "£36.00",
+=======
+    "price": "$36.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Norway",
     "city": "Sandvika",
     "suppliername": "Norske Meierier"
@@ -624,7 +900,11 @@
     "productid": 70,
     "productname": "Outback Lager",
     "unit": "24 - 355 ml bottles",
+<<<<<<< HEAD
     "price": "£15.00",
+=======
+    "price": "$15.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Australia",
     "city": "Melbourne",
     "suppliername": "Pavlova, Ltd."
@@ -633,7 +913,11 @@
     "productid": 71,
     "productname": "Fløtemysost",
     "unit": "10 - 500 g pkgs.",
+<<<<<<< HEAD
     "price": "£21.50",
+=======
+    "price": "$21.50",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Norway",
     "city": "Sandvika",
     "suppliername": "Norske Meierier"
@@ -642,7 +926,11 @@
     "productid": 72,
     "productname": "Mozzarella di Giovanni",
     "unit": "24 - 200 g pkgs.",
+<<<<<<< HEAD
     "price": "£34.80",
+=======
+    "price": "$34.80",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Italy",
     "city": "Ravenna",
     "suppliername": "Formaggi Fortini s.r.l."
@@ -651,7 +939,11 @@
     "productid": 73,
     "productname": "Röd Kaviar",
     "unit": "24 - 150 g jars",
+<<<<<<< HEAD
     "price": "£15.00",
+=======
+    "price": "$15.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Sweden",
     "city": "Stockholm",
     "suppliername": "Svensk Sjöföda AB"
@@ -660,7 +952,11 @@
     "productid": 74,
     "productname": "Longlife Tofu",
     "unit": "5 kg pkg.",
+<<<<<<< HEAD
     "price": "£10.00",
+=======
+    "price": "$10.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Japan",
     "city": "Tokyo",
     "suppliername": "Tokyo Traders"
@@ -669,7 +965,11 @@
     "productid": 75,
     "productname": "Rhönbräu Klosterbier",
     "unit": "24 - 0.5 l bottles",
+<<<<<<< HEAD
     "price": "£7.75",
+=======
+    "price": "$7.75",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Germany",
     "city": "Frankfurt",
     "suppliername": "Plutzer Lebensmittelgroßmärkte AG"
@@ -678,7 +978,11 @@
     "productid": 76,
     "productname": "Lakkalikööri",
     "unit": "500 ml ",
+<<<<<<< HEAD
     "price": "£18.00",
+=======
+    "price": "$18.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Finland",
     "city": "Lappeenranta",
     "suppliername": "Karkki Oy"
@@ -687,7 +991,11 @@
     "productid": 77,
     "productname": "Original Frankfurter grüne Soße",
     "unit": "12 boxes",
+<<<<<<< HEAD
     "price": "£13.00",
+=======
+    "price": "$13.00",
+>>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
     "country": "Germany",
     "city": "Frankfurt",
     "suppliername": "Plutzer Lebensmittelgroßmärkte AG"
