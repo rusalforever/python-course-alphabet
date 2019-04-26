@@ -126,7 +126,7 @@ def task_6_list_all_supplier_countries(cur) -> list:
     records
 
     """
-    cur.execute("SELECT DISTINCT country FROM suppliers")
+    cur.execute("SELECT country FROM suppliers")
     return cur.fetchall()
 
 
@@ -147,7 +147,7 @@ def task_7_list_supplier_countries_in_desc_order(cur) -> list:
     order
 
     """
-    cur.execute("SELECT DISTINCT country FROM suppliers ORDER BY country DESC")
+    cur.execute("SELECT country FROM suppliers ORDER BY country DESC")
     return cur.fetchall()
 
 
@@ -233,7 +233,7 @@ def task_11_list_customers_starting_from_11th(cur):
     Returns: 11
     records
     """
-    cur.execute("SELECT * FROM customers OFFSET 10")
+    cur.execute("SELECT * FROM customers OFFSET 11")
     return cur.fetchall()
 
 
@@ -252,7 +252,9 @@ def task_12_list_suppliers_from_specified_countries(cur):
     Returns: 8
     records
     """
-    cur.execute("SELECT * FROM suppliers WHERE country IN ('USA', 'UK', 'Japan')")
+    cur.execute("""
+        SELECT  SupplierId, SupplierName, ContactName, City, Country  
+        FROM suppliers WHERE country IN ('USA', 'UK', 'Japan')""")
     return cur.fetchall()
 
 
