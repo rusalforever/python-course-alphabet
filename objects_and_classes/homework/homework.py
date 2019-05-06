@@ -121,10 +121,10 @@ class Car:
         return self.price < other.price
 
     def __ge__(self, other):
-        return self.hit_hat() >= other.hit_hat()
+        return self.price >= other.price
 
     def __gt__(self, other):
-        return self.hit_hat() > other.hit_hat()
+        return self.price > other.price
 
 
 
