@@ -4,11 +4,6 @@
 .idea
 __pycache__
 
-<<<<<<< HEAD
-venv
-env
-=======
 env
 venv
 virtualenv
->>>>>>> 9e6a5cf9ab589ac685b162a0775bf72ea64dd0ba
