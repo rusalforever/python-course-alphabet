@@ -64,7 +64,7 @@ class Cesar:
     def garages_count(self):
         return len(self.garages)
 
-    def сars_count(self):
+    def cars_count(self):
         return sum(len(garage.cars) for garage in self.garages)
 
     def add_car(self, car, garage=None):
@@ -90,6 +90,12 @@ class Cesar:
     def __lt__(self, other):
         return self.hit_hat() < other.hit_hat()
 
+    def __ge__(self, other):
+        return self.hit_hat() >= other.hit_hat()
+
+    def __gt__(self, other):
+        return self.hit_hat() > other.hit_hat()
+
 
 class Car:
     def __init__(self, car_type: CARS_TYPES, producer: CARS_PRODUCER, price, mileage):
@@ -113,6 +119,13 @@ class Car:
 
     def __lt__(self, other):
         return self.price < other.price
+
+    def __ge__(self, other):
+        return self.hit_hat() >= other.hit_hat()
+
+    def __gt__(self, other):
+        return self.hit_hat() > other.hit_hat()
+
 
 
 class Garage:
@@ -172,6 +185,6 @@ if __name__ == "__main__":
     print(cesar2)
     print('hit_hat cesar2 = ', cesar2.hit_hat())
     print('cesar > cesar2 ', cesar > cesar2)
-    print('cesar.сars_count = ', cesar.сars_count())
+    print('cesar.cars_count = ', cesar.cars_count())
     cesar.garages[0].remove(cesar.garages[0].cars[0])
-    print('cesar.сars_count = ', cesar.сars_count())
+    print('cesar.cars_count = ', cesar.cars_count())
