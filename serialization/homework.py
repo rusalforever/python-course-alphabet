@@ -18,14 +18,14 @@ Advanced
 
 """
 
-from constants import TOWNS, CARS_TYPES, CARS_PRODUCER
+import sys
+import pickle
 import uuid
 import random
 import json
 from ruamel.yaml import YAML
 from ruamel.yaml.compat import StringIO
-import sys
-import pickle
+from constants import TOWNS, CARS_TYPES, CARS_PRODUCER
 
 
 class GenericJSONEncoder(json.JSONEncoder):
@@ -43,8 +43,8 @@ class GenericJSONEncoder(json.JSONEncoder):
 
 
 class GenericJSONDecoder(json.JSONDecoder):
-    def decode(self, str):
-        result = super().decode(str)
+    def decode(self, str_to_decode):
+        result = super().decode(str_to_decode)
         return GenericJSONDecoder.instantiate_object(result)
 
     @staticmethod
@@ -108,13 +108,10 @@ class MyYAMLAble:
 
     @classmethod
     def to_dump(cls, data, stream=None, **kw):
-        inefficient = False
         if stream is None:
-            inefficient = True
             stream = StringIO()
         cls.yaml.dump(data, stream, **kw)
-        if inefficient:
-            return stream.getvalue()
+        return stream.getvalue()
 
     @classmethod
     def dump_yaml(cls, data):
@@ -151,7 +148,6 @@ class MyYAMLAble:
             data = {}
             for (k, v) in result.items():
                 if isinstance(v, list):
-                    v = list(v)
                     ch_list = []
                     for obj in v:
                         (ch_key, ch_val) = obj.popitem()
