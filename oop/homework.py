@@ -60,16 +60,17 @@ class Cat:
 
     def run(self, hours):
         ran_km = self.average_speed * hours
-        if ran_km <= 25:
-            self._reduce_saturation_level(2)
-        elif 25 < ran_km <= 50:
-            self._reduce_saturation_level(5)
-        elif 50 < ran_km <= 100:
-            self._reduce_saturation_level(15)
-        elif 100 < ran_km <= 200:
-            self._reduce_saturation_level(25)
-        else:
-            self._reduce_saturation_level(50)
+        run_saturation= {
+            ran_km <= 26: 2,
+            25 < ran_km <= 50: 5,
+            50 < ran_km <= 100: 15,
+            100 < ran_km <= 200: 25,
+            200 < ran_km : 50
+        }[True]
+        self._reduce_saturation_level(run_saturation)
+
+
+
         return f"Your cat ran {ran_km} kilometers"
 
     def get_saturation_level(self):
@@ -101,12 +102,11 @@ class Cheetah(Cat):
             self._increase_saturation_level(15)
 
     def _set_average_speed(self):
-        if self.age <= 5:
-            return 90
-        elif 5 < self.age <= 15:
-            return 75
-        else:
-            return 40
+        return {
+            self.age <= 5: 90,
+            5 < self.age <= 15: 75,
+            self.age > 15: 40
+        }[True]
 
 
 class Wall:
