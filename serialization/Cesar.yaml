@@ -1,0 +1,74 @@
+Cesar:
+  register_id: 8bc56646-c578-44a5-8217-2726ffe905d9
+  garages:
+  - Garage:
+      cars:
+      - Car:
+          car_type: SUV
+          producer: BENTLEY
+          price: 43671.84
+          mileage: 15372.55
+          number: caa6be3d-0d68-4fa4-8506-9bca6d361f40
+      - Car:
+          car_type: Sedan
+          producer: Dodge
+          price: 95367.25
+          mileage: 1923.16
+          number: 5e2ec305-29f7-4973-9a62-be8bb021e2b9
+      - Car:
+          car_type: Sports Car
+          producer: BMW
+          price: 23350.96
+          mileage: 29908.75
+          number: 5c808eaa-3d5f-4d5d-bc4d-4febd3be3238
+      - Car:
+          car_type: Truck
+          producer: Bugatti
+          price: 34104.18
+          mileage: 36016.12
+          number: 944f1edb-dda3-4a36-aa07-5fdc34b39aa4
+      - Car:
+          car_type: Luxury Car
+          producer: Bugatti
+          price: 79182.65
+          mileage: 85432.28
+          number: 2c0b8d9d-0831-434c-9bd0-694b75ac1bf6
+      town: London
+      places: 5
+      owner: 8bc56646-c578-44a5-8217-2726ffe905d9
+  - Garage:
+      cars:
+      - Car:
+          car_type: Truck
+          producer: Buick
+          price: 680.01
+          mileage: 11230.9
+          number: 3721329c-6218-4739-8b25-fec135dba611
+      - Car:
+          car_type: SUV
+          producer: Chery
+          price: 91371.3
+          mileage: 77002.37
+          number: 9500e83b-062a-4650-8d0d-756da5012334
+      - Car:
+          car_type: Coupe
+          producer: Chery
+          price: 80702.89
+          mileage: 61025.57
+          number: af3260d3-aa3d-44d8-af4f-f3c0ee9dec43
+      - Car:
+          car_type: Truck
+          producer: BMW
+          price: 13498.58
+          mileage: 50572.57
+          number: c3e262fa-95e7-47a5-9bba-8b949ee612ea
+      - Car:
+          car_type: Truck
+          producer: Bugatti
+          price: 61896.08
+          mileage: 65821.24
+          number: 580c7d28-859c-490a-8385-c8075a70499e
+      town: London
+      places: 5
+      owner: 8bc56646-c578-44a5-8217-2726ffe905d9
+  name: cesar
