@@ -1,0 +1,99 @@
+{
+"__name__": "Cesar",
+"data": {
+"register_id": "5ddabd7a-6b91-435c-bace-541af3fd3e98",
+"garages": [
+{
+"__name__": "Garage",
+"data": {
+"cars": [
+{
+"__name__": "Car",
+"data": {
+"car_type": "Sports Car",
+"producer": "BMW",
+"price": 87605.44,
+"mileage": 73076.65,
+"number": "08237f95-da23-4579-811d-88f88447dbee"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Van",
+"producer": "Chevrolet",
+"price": 15654.5,
+"mileage": 52379.36,
+"number": "6a7b03d1-3e1e-414f-b6e4-63128bd61493"
+}
+}
+],
+"town": "Prague",
+"places": 5,
+"owner": "5ddabd7a-6b91-435c-bace-541af3fd3e98"
+}
+},
+{
+"__name__": "Garage",
+"data": {
+"cars": [
+{
+"__name__": "Car",
+"data": {
+"car_type": "Van",
+"producer": "Lamborghini",
+"price": 34189.83,
+"mileage": 41752.43,
+"number": "51b57b26-9411-4f63-846e-4e898ae21391"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Sedan",
+"producer": "Lamborghini",
+"price": 32351.81,
+"mileage": 29783.54,
+"number": "f41a61be-c811-4fce-9c69-215ab86f4367"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Diesel",
+"producer": "Bugatti",
+"price": 4857.76,
+"mileage": 24462.27,
+"number": "090034a0-2759-4d06-9c8e-43e854f7ca7f"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Sedan",
+"producer": "BMW",
+"price": 94430.09,
+"mileage": 57213.92,
+"number": "ff7ce2a6-2ff8-46df-8a9c-fc1ae760ab6c"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Sedan",
+"producer": "Chevrolet",
+"price": 93053.62,
+"mileage": 54344.88,
+"number": "14206ad3-6122-4fec-a966-4ccaf9d1275a"
+}
+}
+],
+"town": "Kiev",
+"places": 5,
+"owner": "5ddabd7a-6b91-435c-bace-541af3fd3e98"
+}
+}
+],
+"name": "cesar"
+}
+}
