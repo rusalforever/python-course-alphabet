@@ -1,10 +1,10 @@
 {
 "__name__": "Car",
 "data": {
-"car_type": "Sports Car",
-"producer": "BMW",
-"price": 87605.44,
-"mileage": 73076.65,
-"number": "08237f95-da23-4579-811d-88f88447dbee"
+"car_type": "Luxury Car",
+"producer": "Dodge",
+"price": 13974.94,
+"mileage": 95317.5,
+"number": "ca9afe18-a6db-4f7b-8e3b-37e1924d8f26"
 }
 }

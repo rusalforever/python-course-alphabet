@@ -19,6 +19,7 @@ Advanced
 """
 
 import sys
+import numbers
 import pickle
 import uuid
 import random
@@ -51,7 +52,7 @@ class GenericJSONDecoder(json.JSONDecoder):
     def instantiate_object(result):
         cls = result.get('__name__', '__name__') if isinstance(result, dict) else None
         if cls in ['Car', 'Garage', 'Cesar']:
-            cls = getattr(sys.modules['__main__'], cls)
+            cls = getattr(sys.modules[__name__], cls)
             result.pop('__name__')
             instance = cls.__new__(cls)
             data = {k: GenericJSONDecoder.instantiate_object(v) for k, v in result['data'].items()}
@@ -147,7 +148,7 @@ class MyYAMLAble:
         if ins_class_name in ['Car', 'Garage', 'Cesar']:
             if hasattr(result, "__dict__"):
                 result = dict(result)
-            ins_class = getattr(sys.modules['__main__'], ins_class_name)
+            ins_class = getattr(sys.modules[__name__], ins_class_name)
             instance = ins_class.__new__(ins_class)
             data = {}
             for (k, v) in result.items():
@@ -169,6 +170,8 @@ class MyYAMLAble:
             for (k, v) in obj.items():
                 data[k] = cls.to_dict(v)
             return data
+        elif isinstance(obj, numbers.Number):
+            return obj
         elif hasattr(obj, "__iter__") and not isinstance(obj, str):
             return [cls.to_dict(v) for v in obj]
         elif hasattr(obj, "__dict__"):

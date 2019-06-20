@@ -1,6 +1,7 @@
 import os
 import pickle
 import unittest
+import homework
 from copy import deepcopy
 
 from homework import Car, Garage, Cesar
@@ -46,7 +47,7 @@ class BaseTestCases:
         self.assertEqual(expected_res.__class__.__name__, test_res.__class__.__name__)
         self.assertEqual(expected_res.__dict__.keys(), test_res.__dict__.keys())
 
-    def test_dump_yaml(self):
+    def test_dumps_yaml(self):
         file_name = os.path.join(FIXTURES_PATH, f"{self.component.__class__.__name__}.yaml")
         with open(file_name, 'r') as file:
             expected_res = file.read()
@@ -114,20 +115,19 @@ class BaseTestCases:
 
 
 class CarTest(unittest.TestCase, BaseTestCases):
-    component = Car.load_pickle(os.path.join(FIXTURES_PATH, 'Car.pickle'))
-
+    component = Car.load_yaml(os.path.join(FIXTURES_PATH, 'Car.yaml'))
     # component = Car(car_type='SUV', producer='BENTLEY', price=43671.84, mileage=15372.55,
     #                 number='caa6be3d-0d68-4fa4-8506-9bca6d361f40')
 
     def test_change_number(self):
         test_car = deepcopy(self.component)
-        self.assertEqual('08237f95-da23-4579-811d-88f88447dbee', test_car.number)
+        self.assertEqual('ca9afe18-a6db-4f7b-8e3b-37e1924d8f26', test_car.number)
         test_car.change_number()
-        self.assertNotEqual('08237f95-da23-4579-811d-88f88447dbee', test_car.number)
+        self.assertNotEqual('ca9afe18-a6db-4f7b-8e3b-37e1924d8f26', test_car.number)
 
 
 class GarageTest(unittest.TestCase, BaseTestCases):
-    component = Garage.load_pickle(os.path.join(FIXTURES_PATH, 'Garage.pickle'))
+    component = Garage.load_yaml(os.path.join(FIXTURES_PATH, 'Garage.yaml'))
 
     # component = Garage(town='Prague', places='5', owner='35529727-8db9-4e9d-ac39-35d675d1aa36,
     # cars='[Car(car_type='Diesel', producer='Chery', price='56646.17, mileage='98441.76',
@@ -169,7 +169,7 @@ class GarageTest(unittest.TestCase, BaseTestCases):
 
 
 class CesareTest(unittest.TestCase, BaseTestCases):
-    component = Cesar.load_pickle(os.path.join(FIXTURES_PATH, 'Cesar.pickle'))
+    component = Cesar.load_yaml(os.path.join(FIXTURES_PATH, 'Cesar.yaml'))
 
     def test_garages_count(self):
         self.assertEqual(self.component.garages_count(), 2)
