@@ -19,6 +19,7 @@ Advanced
 """
 
 import sys
+import numbers
 import pickle
 import uuid
 import random
@@ -51,7 +52,7 @@ class GenericJSONDecoder(json.JSONDecoder):
     def instantiate_object(result):
         cls = result.get('__name__', '__name__') if isinstance(result, dict) else None
         if cls in ['Car', 'Garage', 'Cesar']:
-            cls = getattr(sys.modules['__main__'], cls)
+            cls = getattr(sys.modules[__name__], cls)
             result.pop('__name__')
             instance = cls.__new__(cls)
             data = {k: GenericJSONDecoder.instantiate_object(v) for k, v in result['data'].items()}
@@ -68,8 +69,9 @@ class MyJSONAble:
         return json.loads(data, cls=GenericJSONDecoder)
 
     @classmethod
-    def load_json(cls):
-        with open(f"{cls.__name__}.json", 'r') as file:
+    def load_json(cls, file_name=None):
+        file_name = file_name if file_name else f"{cls.__name__}.json"
+        with open(file_name, 'r') as file:
             return json.load(file, cls=GenericJSONDecoder)
 
     @staticmethod
@@ -77,9 +79,10 @@ class MyJSONAble:
         return json.dumps(obj, cls=GenericJSONEncoder)
 
     @staticmethod
-    def dump_json(obj):
-        with open(f"{obj.__class__.__name__}.json", 'w') as file:
-            json.dump(obj, file, indent=4, cls=GenericJSONEncoder)
+    def dump_json(obj, file_name=None):
+        file_name = file_name if file_name else f"{obj.__class__.__name__}.json"
+        with open(file_name, 'w') as file:
+            json.dump(obj, file, indent=0, cls=GenericJSONEncoder)
 
 
 class MyPickleAble:
@@ -89,8 +92,9 @@ class MyPickleAble:
         return pickle.dumps(obj)
 
     @staticmethod
-    def dump_pickle(obj):
-        with open(f"{obj.__class__.__name__}.pickle", 'wb') as file:
+    def dump_pickle(obj, file_name=None):
+        file_name = file_name if file_name else f"{obj.__class__.__name__}.pickle"
+        with open(file_name, 'wb') as file:
             pickle.dump(obj, file)
 
     @classmethod
@@ -98,8 +102,9 @@ class MyPickleAble:
         return pickle.loads(obj)
 
     @classmethod
-    def load_pickle(cls):
-        with open(f"{cls.__name__}.pickle", 'rb') as file:
+    def load_pickle(cls, file_name=None):
+        file_name = file_name if file_name else f"{cls.__name__}.pickle"
+        with open(file_name, 'rb') as file:
             return pickle.load(file)
 
 
@@ -114,10 +119,10 @@ class MyYAMLAble:
         return stream.getvalue()
 
     @classmethod
-    def dump_yaml(cls, data):
+    def dump_yaml(cls, data, file_name = None):
         data = cls.to_dict(data)
-        filename = '{}.yaml'.format(cls.__name__)
-        with open(filename, "w") as file:
+        file_name = file_name if file_name else f"{cls.__name__}.yaml"
+        with open(file_name, "w") as file:
             config = cls.yaml.dump(data, file)
         return config
 
@@ -127,9 +132,9 @@ class MyYAMLAble:
         return cls.to_dump(data)
 
     @classmethod
-    def load_yaml(cls):
-        filename = '{}.yaml'.format(cls.__name__)
-        with open(filename, "r") as file:
+    def load_yaml(cls, file_name = None):
+        file_name = file_name if file_name else f"{cls.__name__}.yaml"
+        with open(file_name, "r") as file:
             config = cls.yaml.load(file)
         return cls.instantiate_yaml(cls, cls.__name__, config[cls.__name__])
 
@@ -143,7 +148,7 @@ class MyYAMLAble:
         if ins_class_name in ['Car', 'Garage', 'Cesar']:
             if hasattr(result, "__dict__"):
                 result = dict(result)
-            ins_class = getattr(sys.modules['__main__'], ins_class_name)
+            ins_class = getattr(sys.modules[__name__], ins_class_name)
             instance = ins_class.__new__(ins_class)
             data = {}
             for (k, v) in result.items():
@@ -165,6 +170,8 @@ class MyYAMLAble:
             for (k, v) in obj.items():
                 data[k] = cls.to_dict(v)
             return data
+        elif isinstance(obj, numbers.Number):
+            return obj
         elif hasattr(obj, "__iter__") and not isinstance(obj, str):
             return [cls.to_dict(v) for v in obj]
         elif hasattr(obj, "__dict__"):
@@ -186,7 +193,8 @@ class Car(MyJSONAble, MyYAMLAble, MyPickleAble):
             f"mileage='{self.mileage}', number='{str(self.number)}')"
 
     def change_number(self):
-        self.number = str(uuid.uuid4())
+        new_number = uuid.uuid4()
+        self.number = str(new_number)
 
     def __eq__(self, other):
         return self.price == other.price
@@ -266,7 +274,7 @@ class Garage(MyJSONAble, MyYAMLAble, MyPickleAble):
         self.cars.remove(car)
 
     def hit_hat(self):
-        return sum(car.price for car in self.cars)
+        return round(sum(car.price for car in self.cars), 2)
 
     def __repr__(self):
         return f"Garage(town='{self.town}', places='{self.places}', owner='{self.owner}, cars='{self.cars}')"
@@ -301,9 +309,12 @@ if __name__ == "__main__":
     sample_cesar = cesar
 
     print(sample_car)
+    sample_car.change_number
     car_json = Car.dumps_json(sample_car)
     print(car_json)
     Car.dump_json(sample_car)
+    Car.dump_pickle(sample_car)
+    Car.dump_yaml(sample_car)
     sample_car = Car.loads_json(car_json)
     print(sample_car)
     sample_car = Car.load_json()
@@ -315,6 +326,8 @@ if __name__ == "__main__":
     garage_json = Garage.dumps_json(sample_garage)
     print(garage_json)
     Garage.dump_json(sample_garage)
+    Garage.dump_pickle(sample_garage)
+    Garage.dump_yaml(sample_garage)
     sample_garage = Garage.loads_json(garage_json)
     print(sample_garage)
     sample_garage = Garage.load_json()
@@ -324,6 +337,8 @@ if __name__ == "__main__":
     print(sample_cesar)
     print(Cesar.dump_json(sample_cesar))
     Cesar.dump_json(sample_cesar)
+    Cesar.dump_pickle(sample_cesar)
+    Cesar.dump_yaml(sample_cesar)
     sample_cesar = Cesar.load_json()
     print(type(sample_cesar))
     print(sample_cesar)

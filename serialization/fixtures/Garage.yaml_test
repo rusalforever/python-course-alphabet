@@ -1,0 +1,17 @@
+Garage:
+  cars:
+  - Car:
+      car_type: Sports Car
+      producer: BMW
+      price: 87605.44
+      mileage: 73076.65
+      number: 08237f95-da23-4579-811d-88f88447dbee
+  - Car:
+      car_type: Van
+      producer: Chevrolet
+      price: 15654.5
+      mileage: 52379.36
+      number: 6a7b03d1-3e1e-414f-b6e4-63128bd61493
+  town: Prague
+  places: 5
+  owner: 5ddabd7a-6b91-435c-bace-541af3fd3e98

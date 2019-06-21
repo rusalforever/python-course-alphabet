@@ -1,10 +1,10 @@
 {
-    "__name__": "Car",
-    "data": {
-        "car_type": "SUV",
-        "producer": "BENTLEY",
-        "price": 43671.84,
-        "mileage": 15372.55,
-        "number": "caa6be3d-0d68-4fa4-8506-9bca6d361f40"
-    }
+"__name__": "Car",
+"data": {
+"car_type": "Sports Car",
+"producer": "Bugatti",
+"price": 98449.65,
+"mileage": 56000.66,
+"number": "ceb09d08-c5e4-4a1f-9d2e-23fed28a7263"
+}
 }

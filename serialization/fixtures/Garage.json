@@ -1,0 +1,60 @@
+{
+"__name__": "Garage",
+"data": {
+"cars": [
+{
+"__name__": "Car",
+"data": {
+"car_type": "Luxury Car",
+"producer": "Dodge",
+"price": 13974.94,
+"mileage": 95317.5,
+"number": "ca9afe18-a6db-4f7b-8e3b-37e1924d8f26"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Coupe",
+"producer": "Buick",
+"price": 35092.8,
+"mileage": 17974.47,
+"number": "1d537732-c4fb-4374-9d41-9186964f3b80"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Sedan",
+"producer": "BENTLEY",
+"price": 1890.23,
+"mileage": 1554.49,
+"number": "56962525-31ae-4153-8939-e7fd22445f5a"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Truck",
+"producer": "BENTLEY",
+"price": 87114.37,
+"mileage": 64223.79,
+"number": "399029d4-c051-4fee-8098-b8ad879631f9"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Diesel",
+"producer": "Dodge",
+"price": 45878.89,
+"mileage": 3095.27,
+"number": "abba3834-7773-41b5-a40a-44a32515261c"
+}
+}
+],
+"town": "Prague",
+"places": 5,
+"owner": "11e74fca-a853-4c84-a599-8b83f3cf5b31"
+}
+}

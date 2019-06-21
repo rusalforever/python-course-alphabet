@@ -1,60 +1,60 @@
 {
-    "__name__": "Garage",
-    "data": {
-        "cars": [
-            {
-                "__name__": "Car",
-                "data": {
-                    "car_type": "SUV",
-                    "producer": "BENTLEY",
-                    "price": 43671.84,
-                    "mileage": 15372.55,
-                    "number": "caa6be3d-0d68-4fa4-8506-9bca6d361f40"
-                }
-            },
-            {
-                "__name__": "Car",
-                "data": {
-                    "car_type": "Sedan",
-                    "producer": "Dodge",
-                    "price": 95367.25,
-                    "mileage": 1923.16,
-                    "number": "5e2ec305-29f7-4973-9a62-be8bb021e2b9"
-                }
-            },
-            {
-                "__name__": "Car",
-                "data": {
-                    "car_type": "Sports Car",
-                    "producer": "BMW",
-                    "price": 23350.96,
-                    "mileage": 29908.75,
-                    "number": "5c808eaa-3d5f-4d5d-bc4d-4febd3be3238"
-                }
-            },
-            {
-                "__name__": "Car",
-                "data": {
-                    "car_type": "Truck",
-                    "producer": "Bugatti",
-                    "price": 34104.18,
-                    "mileage": 36016.12,
-                    "number": "944f1edb-dda3-4a36-aa07-5fdc34b39aa4"
-                }
-            },
-            {
-                "__name__": "Car",
-                "data": {
-                    "car_type": "Luxury Car",
-                    "producer": "Bugatti",
-                    "price": 79182.65,
-                    "mileage": 85432.28,
-                    "number": "2c0b8d9d-0831-434c-9bd0-694b75ac1bf6"
-                }
-            }
-        ],
-        "town": "London",
-        "places": 5,
-        "owner": "8bc56646-c578-44a5-8217-2726ffe905d9"
-    }
+"__name__": "Garage",
+"data": {
+"cars": [
+{
+"__name__": "Car",
+"data": {
+"car_type": "Sports Car",
+"producer": "Bugatti",
+"price": 98449.65,
+"mileage": 56000.66,
+"number": "ceb09d08-c5e4-4a1f-9d2e-23fed28a7263"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Sports Car",
+"producer": "Chevrolet",
+"price": 9996.31,
+"mileage": 77476.72,
+"number": "8a9835c5-8378-4e54-a03c-74d86a6d9b11"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Sports Car",
+"producer": "Chery",
+"price": 9993.46,
+"mileage": 32567.21,
+"number": "f8cddc70-e139-4d74-ae79-157abd109053"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "SUV",
+"producer": "Buick",
+"price": 29627.46,
+"mileage": 72090.54,
+"number": "b4045ce3-61c3-45bd-8d8f-4688da8473e2"
+}
+},
+{
+"__name__": "Car",
+"data": {
+"car_type": "Coupe",
+"producer": "Dodge",
+"price": 52475.36,
+"mileage": 18647.88,
+"number": "f05569be-ed44-4367-be66-806c9424f759"
+}
+}
+],
+"town": "Berlin",
+"places": 5,
+"owner": "5ba06c7f-5443-432e-9a12-7bb7b6dae37c"
+}
 }
